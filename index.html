@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4TL MAD HOUSE</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Roboto:wght@500&display=swap');
         
         body {
             font-family: 'Arial', sans-serif;
@@ -42,6 +42,8 @@
             color: #ff6600;
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.2rem;
         }
         .flyer {
             max-width: 100%;
@@ -60,16 +62,17 @@
             font-weight: bold;
             transition: all 0.3s ease;
             font-size: 1.1rem;
-            margin-bottom: 1.5rem; /* Add margin to create space between the button and image */
+            margin-bottom: 1.5rem;
+            font-family: 'Roboto', sans-serif; /* Changed to Roboto */
         }
         .signup-btn:hover {
             background-color: #ff8533;
             transform: scale(1.05);
         }
         .costume-emphasis {
-            font-weight: bold; /* Revert back to default font */
+            font-family: 'Nosifer', cursive;
             color: #ff6600;
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-top: 1.5rem;
         }
         .contact-info {
@@ -87,17 +90,17 @@
             margin-top: 1.5rem;
             display: flex;
             justify-content: center;
-            gap: 10px; /* Adjusts spacing between icons */
+            gap: 10px;
         }
 
-       .social-icon {
-            width: 40px;  /* Adjust size of the icons */
+        .social-icon {
+            width: 40px;
             height: 40px;
             transition: transform 0.3s ease;
         }
 
         .social-icon:hover {
-            transform: scale(1.1);  /* A hover effect to slightly enlarge the icon */
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -108,12 +111,10 @@
     <div class="container">
         <h1>ENTER IF YOU DARE!</h1>
         
-        <!-- Sign-up Button moved above the image with margin added -->
         <a href="https://tix.africa/4tl-mad-house" class="signup-btn" target="_blank">Sign Up For Free</a>
 
         <img src="mad_house.jpg" alt="Event Flyer" class="flyer">
 
-        <!-- Costumes emphasis text reverted back to bold with no spooky font -->
         <p class="costume-emphasis">🎭 COSTUMES ARE HIGHLY ENCOURAGED! 🎭</p>
 
         <div class="contact-info">
